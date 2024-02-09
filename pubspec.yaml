@@ -1,0 +1,46 @@
+name: bus_tracking
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_maps_flutter: ^2.5.2
+  geolocator: ^10.1.0
+  google_maps_webservice: ^0.0.19
+  google_maps_flutter_platform_interface: ^2.4.1
+  geocoding: ^2.0.0
+  http: ^0.13.6
+  lottie: ^2.7.0 
+  motion_tab_bar: ^2.0.4
+  motion_tab_bar_v2: ^0.3.0
+  persistent_bottom_nav_bar_v2: ^4.2.8
+  timeline_tile: ^2.0.0
+  flutter_highlight: ^0.7.0
+  google_fonts: ^4.0.4
+  flutter_launcher_icons: "^0.13.1"
+  url_launcher: ^6.0.13  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/R.png
+    - assets/bus_icon.png
+    - assets/jes.json
+    - assets/logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"

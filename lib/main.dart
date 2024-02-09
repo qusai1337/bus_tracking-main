@@ -502,6 +502,7 @@ class _HomePageState extends State<_HomePage> {
             id: busData['id'],
             permitNumber: busData['permitNumber'],
             position: LatLng(latitude, longitude),
+            arrivalTimes: {},
           );
           Marker marker = await bus.createMarker();
           markers.add(marker);
